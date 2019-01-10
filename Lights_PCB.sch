@@ -1,0 +1,141 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:IRL530
+LIBS:MSGEQ7
+LIBS:stm32f302r8t6
+LIBS:stm32f030r8t6
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L IRL530 Q?
+U 1 1 5C37BE87
+P 4300 3900
+F 0 "Q?" H 4550 3900 50  0000 L BNN
+F 1 "IRL530" H 4550 3800 50  0000 L BNN
+F 2 "" H 4300 3900 60  0001 C CNN
+F 3 "Vishay Siliconix" H 4300 3900 50  0001 L BNN
+F 4 "Trans MOSFET N-CH 100V 15A 3-Pin_3+Tab_ TO-220AB" H 4300 3900 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 4300 3900 50  0001 L BNN "Field5"
+F 6 "TO-220 Vishay Siliconix" H 4300 3900 50  0001 L BNN "Field6"
+F 7 "IRL530" H 4300 3900 50  0001 L BNN "Field7"
+F 8 "None" H 4300 3900 50  0001 L BNN "Field8"
+	1    4300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRL530 Q?
+U 1 1 5C37BF10
+P 5100 3900
+F 0 "Q?" H 5350 3900 50  0000 L BNN
+F 1 "IRL530" H 5350 3800 50  0000 L BNN
+F 2 "" H 5100 3900 60  0001 C CNN
+F 3 "Vishay Siliconix" H 5100 3900 50  0001 L BNN
+F 4 "Trans MOSFET N-CH 100V 15A 3-Pin_3+Tab_ TO-220AB" H 5100 3900 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 5100 3900 50  0001 L BNN "Field5"
+F 6 "TO-220 Vishay Siliconix" H 5100 3900 50  0001 L BNN "Field6"
+F 7 "IRL530" H 5100 3900 50  0001 L BNN "Field7"
+F 8 "None" H 5100 3900 50  0001 L BNN "Field8"
+	1    5100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRL530 Q?
+U 1 1 5C37BF57
+P 5900 3900
+F 0 "Q?" H 6150 3900 50  0000 L BNN
+F 1 "IRL530" H 6150 3800 50  0000 L BNN
+F 2 "" H 5900 3900 60  0001 C CNN
+F 3 "Vishay Siliconix" H 5900 3900 50  0001 L BNN
+F 4 "Trans MOSFET N-CH 100V 15A 3-Pin_3+Tab_ TO-220AB" H 5900 3900 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 5900 3900 50  0001 L BNN "Field5"
+F 6 "TO-220 Vishay Siliconix" H 5900 3900 50  0001 L BNN "Field6"
+F 7 "IRL530" H 5900 3900 50  0001 L BNN "Field7"
+F 8 "None" H 5900 3900 50  0001 L BNN "Field8"
+	1    5900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSGEQ7 U?
+U 1 1 5C37BFBC
+P 5000 2300
+F 0 "U?" H 4900 2850 50  0000 R CNN
+F 1 "MSGEQ7" H 4900 2750 50  0000 R CNN
+F 2 "" H 5000 2300 50  0001 C CNN
+F 3 "" H 5000 2300 50  0001 C CNN
+	1    5000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio-Jack-3 J?
+U 1 1 5C37C293
+P 3700 2400
+F 0 "J?" H 3650 2575 50  0000 C CNN
+F 1 "Audio-Jack-3" H 3800 2330 50  0000 C CNN
+F 2 "" H 3950 2500 50  0001 C CNN
+F 3 "" H 3950 2500 50  0001 C CNN
+	1    3700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x04 J?
+U 1 1 5C37C47C
+P 7600 3800
+F 0 "J?" H 7600 4000 50  0000 C CNN
+F 1 "LED5050_OUT" H 7600 3500 50  0000 C CNN
+F 2 "" H 7600 3800 50  0001 C CNN
+F 3 "" H 7600 3800 50  0001 C CNN
+	1    7600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F030R8T6 U?
+U 1 1 5C37CDA1
+P 7150 1750
+F 0 "U?" H 7150 2200 60  0000 C CNN
+F 1 "STM32F030R8T6" H 7150 1750 60  0000 C CNN
+F 2 "" H 6750 1700 60  0001 C CNN
+F 3 "" H 6750 1700 60  0001 C CNN
+	1    7150 1750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,38 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MSGEQ7
+#
+DEF MSGEQ7 IC 0 40 N Y 1 L N
+F0 "IC" -240 341 50 H V L BNN
+F1 "MSGEQ7" 0 0 50 H I L BNN
+F3 "MSGEQ7" 0 0 50 H I L BNN
+F4 "SOIC-8 Mixed Signal Integration" 0 0 50 H I L BNN
+F5 "Seven Band Graphic Equalizer Display Filter" 0 0 50 H I L BNN
+F6 "Mixed Signal Integration" 0 0 50 H I L BNN
+F7 "None" 0 0 50 H I L BNN
+F8 "Unavailable" 0 0 50 H I L BNN
+$FPLIST
+ SOIC8
+ DIL-08
+$ENDFPLIST
+DRAW
+P 2 0 0 10 -500 300 400 300 N
+P 2 0 0 10 400 300 400 -200 N
+P 2 0 0 10 400 -200 -500 -200 N
+P 2 0 0 10 -500 -200 -500 300 N
+T 0 -240 -310 70 0 0 0 MSGEQ7 Normal 0 L B
+X DCOUT 3 600 200 200 L 40 40 0 0 B 
+X CG 6 600 0 200 L 40 40 0 0 B 
+X CKIN 8 600 100 200 L 40 40 0 0 B 
+X GND 2 600 -100 200 L 40 40 0 0 B 
+X RESET 7 -700 -100 200 R 40 40 0 0 I 
+X STROBE 4 -700 0 200 R 40 40 0 0 I 
+X AUDIO_IN 5 -700 100 200 R 40 40 0 0 I 
+X VDD 1 -700 200 200 R 40 40 0 0 I 
+ENDDRAW
+ENDDEF
+#
+# End Library

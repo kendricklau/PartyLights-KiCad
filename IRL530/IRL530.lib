@@ -1,0 +1,65 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# IRL530
+#
+DEF IRL530 Q 0 40 N N 1 L N
+F0 "Q" 250 0 50 H V L BNN
+F1 "IRL530" 250 -100 50 H V L BNN
+F3 "Vishay Siliconix" 0 0 50 H I L BNN
+F4 "Trans MOSFET N-CH 100V 15A 3-Pin_3+Tab_ TO-220AB" 0 0 50 H I L BNN
+F5 "Unavailable" 0 0 50 H I L BNN
+F6 "TO-220 Vishay Siliconix" 0 0 50 H I L BNN
+F7 "IRL530" 0 0 50 H I L BNN
+F8 "None" 0 0 50 H I L BNN
+$FPLIST
+ TO220V
+ TO220
+ D2PAK
+$ENDFPLIST
+DRAW
+P 2 0 0 10 -44 95 -44 -100 N
+P 2 0 0 6 -44 -100 -100 -100 N
+P 2 0 0 6 100 75 21 75 N
+P 2 0 0 6 100 0 100 -75 N
+P 2 0 0 6 20 -75 100 -75 N
+P 2 0 0 6 100 100 100 75 N
+P 2 0 0 6 100 75 163 75 N
+P 2 0 0 6 163 75 163 30 N
+P 2 0 0 6 163 -75 100 -75 N
+P 2 0 0 6 100 -75 100 -100 N
+P 2 0 0 6 163 30 141 -19 N
+P 2 0 0 6 141 -19 163 -19 N
+P 2 0 0 6 163 -19 184 -19 N
+P 2 0 0 6 184 -19 163 30 N
+P 2 0 0 6 138 30 163 30 N
+P 2 0 0 6 163 30 188 30 N
+P 2 0 0 6 188 30 198 40 N
+P 2 0 0 6 138 30 128 20 N
+P 2 0 0 6 20 0 70 -20 N
+P 2 0 0 6 70 -20 70 20 N
+P 2 0 0 6 70 20 20 0 N
+P 2 0 0 6 65 0 100 0 N
+P 2 0 0 12 65 10 30 0 N
+P 2 0 0 12 30 0 65 -10 N
+P 2 0 0 12 65 -10 65 0 N
+P 2 0 0 12 65 0 55 0 N
+P 2 0 0 6 163 -19 163 -75 N
+C 100 -75 5 0 0 16 N
+C 100 75 5 0 0 16 N
+T 0 50 100 40 0 0 0 D Normal 0 L B
+T 0 50 -125 40 0 0 0 S Normal 0 L B
+T 0 -100 -50 40 0 0 0 G Normal 0 L B
+S -10 -100 20 -50 0 0 0 F
+S -10 50 20 100 0 0 0 F
+S -10 -35 20 35 0 0 0 F
+P 3 0 0 6 163 25 144 -16 181 -16 F
+X G 1 -100 -100 0 R 40 40 0 0 P 
+X D 2 100 200 100 D 40 40 0 0 P 
+X S 3 100 -200 100 U 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
